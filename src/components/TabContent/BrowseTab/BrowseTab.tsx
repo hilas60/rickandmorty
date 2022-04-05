@@ -1,8 +1,8 @@
 import React from 'react'
 import { Character } from '../../../views/character.type'
+import CharacterRow from './Character/CharacterRow'
 import NoCharacter from '../NoCharacter'
 import './BrowseTab.scss'
-import CharacterRow from './Character/CharacterRow'
 
 interface BrowseProps {
   data: Character[]

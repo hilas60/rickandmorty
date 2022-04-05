@@ -15,7 +15,6 @@ const SearchBar:React.FC<SearchProps> = ({placeholder = '', handleSearch}) => {
   
   useEffect(() => {
     let timer = setTimeout(()=>{
-      // if (searchValue || searchValue === '') handleSearch(searchValue)
       if (searchValue || searchValue === '') handleSearch(searchValue)
     }, 800)
     return () => {
@@ -34,8 +33,6 @@ const SearchBar:React.FC<SearchProps> = ({placeholder = '', handleSearch}) => {
         <input type={'search'} placeholder={placeholder} onChange={onSearchChange} value={searchValue}/>
       </div>
         <button className='go-button'>Go</button>
-
-      {/* <img src={'../../assets/searchIcon.svg'} alt="" /> */}
     </div>
   )
 }
