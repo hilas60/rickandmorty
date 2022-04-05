@@ -5,7 +5,7 @@ import './CharacterTab.scss'
 import NoCharacter from '../NoCharacter'
 
 interface CharacterTabProps {
-  data: Character
+  data: Character | null,
 }
 
 const CharacterTab:React.FC<CharacterTabProps> = ({data = null}) => {  
