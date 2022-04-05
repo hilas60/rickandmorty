@@ -1,0 +1,35 @@
+.app-header {
+    height: 215px;
+    margin-bottom: 10vw;
+    position: relative;
+}
+
+.upload-area {
+    // background: url('../../assets/uploadArea.svg');
+    // background: no-repeat center url('../../assets/Group\ 1.svg');
+    background: no-repeat center url('../../assets/header-bg.png');
+    background-size: cover;
+    background-color: #EFEFF4;
+    border: 2px dashed #8E8E93;
+    width: 100%;
+    height: 100%;
+    &::after {
+        display: flex;
+        content: '';
+        height: 10vw;
+        position: absolute;
+        width: 100%;
+        top: 75%;
+        // left: 50%;
+        // margin-left: -50px;
+        background: no-repeat center url('../../assets/justtLogo.svg');
+        background-size: contain;
+    }
+}
+
+.logo-container {
+    // background: no-repeat center url('../../assets/justtLogo.svg');
+    position: absolute;
+    left: calc(50% - 125px);
+    top: 117px;
+}

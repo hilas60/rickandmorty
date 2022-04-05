@@ -1,0 +1,35 @@
+.tabs-nav-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tab-nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    margin-bottom: 48px;
+    width: 200px;
+    background: #EFEFFD;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #4310AE;
+
+    &.active {
+        background: #4310AE;
+        color: #FFFFFF;
+    }
+    &:first-child {
+        border-radius: 8px 0px 0px 8px;
+    }
+    &:last-child {
+        border-radius: 0px 8px 8px 0px;
+    }
+}

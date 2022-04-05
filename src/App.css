@@ -1,5 +1,12 @@
+
 .App {
+  min-height: 100vh;
   text-align: center;
+  font-family: 'Roboto';
+  background: #E5E5E550;
+}
+* {
+ box-sizing: border-box; 
 }
 
 .App-logo {
